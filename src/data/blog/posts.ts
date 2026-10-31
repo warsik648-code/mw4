@@ -11,11 +11,11 @@ const image = '/images/blog/mw4-guide.svg';
 const meta: Record<string, Omit<BlogPostFull, 'body' | 'slug' | 'image'>> = {
   'cheats-guide': {
     tag: 'Guides',
-    title: 'Call of Duty 4: Modern Warfare cheats and what the words mean',
+    title: 'Plans: Call of Duty 4: Modern Warfare cheats and what the words mean',
     desc: 'How this site uses Call of Duty 4: Modern Warfare cheats, the feature names, and which guides cover the game itself.',
     date: 'Oct 28, 2026',
     readTime: '8 min read',
-    seoTitle: 'Call of Duty 4: Modern Warfare Cheats Guide | Plans and Terms',
+    seoTitle: 'Plans – Call of Duty 4 | Modern Warfare Cheats',
     seoDescription:
       'Read how Call of Duty 4: Modern Warfare cheats are listed for Windows PC, what the plans cost, and which guides cover the game rather than checkout.',
     featured: true,
@@ -27,7 +27,7 @@ const meta: Record<string, Omit<BlogPostFull, 'body' | 'slug' | 'image'>> = {
     desc: 'What Advanced Aimbot, Player ESP, Loot ESP, and radar mean on this listing, without a detection claim.',
     date: 'Oct 27, 2026',
     readTime: '8 min read',
-    seoTitle: 'Call of Duty 4: Modern Warfare Aimbot and ESP Terms',
+    seoTitle: 'Aimbot – Call of Duty 4 | Modern Warfare Cheats',
     seoDescription:
       'Definitions for Call of Duty 4: Modern Warfare aimbot, ESP, wallhack, loot visuals, and radar terms used on the Windows PC product.',
     author: 'Call of Duty 4: Modern Warfare Cheats',
@@ -38,7 +38,7 @@ const meta: Record<string, Omit<BlogPostFull, 'body' | 'slug' | 'image'>> = {
     desc: 'What a Call of Duty 4: Modern Warfare update note is for, and why this site will not invent a season.',
     date: 'Oct 26, 2026',
     readTime: '8 min read',
-    seoTitle: 'Call of Duty 4: Modern Warfare Patch Notes and Updates',
+    seoTitle: 'Patch Notes – Call of Duty 4 | Modern Warfare Cheats',
     seoDescription:
       'How to read Call of Duty 4: Modern Warfare patch notes and updates without treating a seasonal headline as a real client change.',
     author: 'Call of Duty 4: Modern Warfare Cheats',
@@ -104,7 +104,7 @@ const meta: Record<string, Omit<BlogPostFull, 'body' | 'slug' | 'image'>> = {
     desc: 'Campaign characters, camouflage, and why legends are a different game’s word.',
     date: 'Oct 20, 2026',
     readTime: '8 min read',
-    seoTitle: 'Call of Duty 4: Modern Warfare Characters and Skins',
+    seoTitle: 'Characters – Call of Duty 4 | Modern Warfare Cheats',
     seoDescription:
       'Call of Duty 4: Modern Warfare characters, character names, skins, sets, and why legend searches belong to other games.',
     author: 'Call of Duty 4: Modern Warfare Cheats',
@@ -115,7 +115,7 @@ const meta: Record<string, Omit<BlogPostFull, 'body' | 'slug' | 'image'>> = {
     desc: 'How this site talks about Easy Anti-Cheat and PunkBuster without a bypass or an undetected label.',
     date: 'Oct 19, 2026',
     readTime: '8 min read',
-    seoTitle: 'Call of Duty 4: Modern Warfare Easy Anti-Cheat',
+    seoTitle: 'Anti Cheat – Call of Duty 4 | Modern Warfare Cheats',
     seoDescription:
       'Call of Duty 4: Modern Warfare anti-cheat terms, including Easy Anti-Cheat, with no bypass steps and no undetected claim.',
     author: 'Call of Duty 4: Modern Warfare Cheats',

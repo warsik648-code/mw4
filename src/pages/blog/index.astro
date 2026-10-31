@@ -52,7 +52,7 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
   <section class="py-8 md:py-12">
     <div class="mx-auto max-w-6xl px-5">
       <Breadcrumbs items={breadcrumbs} />
-      {featured && <BlogCard post={featured} index={0} eager showDate layout="featured" />}
+      {featured && <BlogCard post={featured} index={0} eager showDate layout="featured" alt="Guides" />}
     </div>
   </section>
 
@@ -61,6 +61,7 @@ const tagIcon = (tag: string): IconName => blogTagIcons[tag] ?? 'tag';
       <header class="section-header max-w-2xl">
         <p class="section-header__eyebrow">{t.blog.eyebrow}</p>
         <h1 id="blog-latest-title" class="section-header__title">{t.blog.latestTitle}</h1>
+        <h2 class="mt-4 text-lg font-semibold">Guides: Call of Duty 4: Modern Warfare Cheats</h2>
         <p class="section-header__subtitle">{t.blog.latestSubtitle}</p>
       </header>
 

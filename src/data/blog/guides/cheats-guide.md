@@ -1,3 +1,5 @@
+Read how Call of Duty 4: Modern Warfare cheats are listed for Windows PC, what the plans cost, and which guides cover the game rather than checkout.
+
 Call of Duty 4: Modern Warfare cheats are the primary product on this site. The phrase covers the Windows PC listing at mw4cheats.net, not a mobile client and not a console command list. A Call of Duty 4: Modern Warfare cheat, in the way this site uses the word, is that same product. Call of Duty 4: Modern Warfare hacks is a search people use for the same commercial intent. The page that matches it is the [main product](/modern-warfare-cheats/), where the plan prices and the feature names are written down.
 
 The plans are simple because they should be easy to compare before you play. One week is $15. One month is $35. Lifetime is $150. All three prices are in USD. The buy button on that card redirects to the checkout stored for this product. It does not send you to Cloud DMA or to HWID Spoofer. Those are related products with their own cards on the [store](/store/).

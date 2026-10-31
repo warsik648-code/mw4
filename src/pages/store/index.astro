@@ -28,7 +28,7 @@ function cardIcon(product: (typeof productPages)[number]): IconName {
   description={seo.description}
   jsonLd={[
     collectionPageSchema({
-      name: productHub.title,
+      name: 'Store',
       description: seo.description,
       url: productHub.path,
     }),
@@ -40,8 +40,9 @@ function cardIcon(product: (typeof productPages)[number]): IconName {
     <div class="mx-auto max-w-6xl px-5">
       <Breadcrumbs items={breadcrumbs} />
       <div class="mt-6 max-w-3xl space-y-3">
-        <h1 class="text-3xl font-bold uppercase md:text-4xl">{t.products.title}</h1>
-        <p class="text-lg text-muted-foreground">{t.products.subtitle}</p>
+        <h1 class="text-3xl font-bold uppercase md:text-4xl">Store</h1>
+        <h2 class="text-lg font-semibold normal-case">Store: Call of Duty 4: Modern Warfare Cheats</h2>
+        <p class="text-lg text-muted-foreground">{t.products.subtitle} This store lists the three cards with their own checkout links.</p>
       </div>
       <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {productPages.map((product) => (

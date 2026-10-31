@@ -9,7 +9,7 @@ export const en: Translations = {
   site: {
     name: 'Call of Duty 4: Modern Warfare Cheats',
     domain: 'mw4cheats.net',
-    title: 'Call of Duty 4: Modern Warfare Cheats | Aimbot, ESP and Radar',
+    title: 'Call Of Duty 4 – Aimbot, ESP and Radar',
     description:
       'Explore Call of Duty 4: Modern Warfare cheats for Windows PC, including MW4 player ESP, Modern Warfare 4 aimbot, and recoil control.',
     discord: PRIMARY_CHECKOUT_PATH,
@@ -25,7 +25,7 @@ export const en: Translations = {
     status: 'Windows PC · check the status page after each game update',
     eyebrow: 'Call of Duty 4: Modern Warfare',
     titleLine1: 'Call of Duty 4: Modern Warfare',
-    titleLine2: 'Cheats',
+    titleLine2: 'Call Of Duty 4: Cheats',
     subtitle:
       'The Windows PC listing covers MW4 player ESP, Modern Warfare 4 aimbot, and MW4 no recoil, plus the box, skeleton, and distance visuals named below. Read the status page before you play.',
     ctaPrimary: 'View store',
@@ -426,6 +426,7 @@ export const en: Translations = {
           heading: 'What this site is',
           paragraphs: [
             'mw4cheats.net publishes Call of Duty 4: Modern Warfare Cheats, plus the related products Cloud DMA and HWID Spoofer. The main product is the primary listing. The other two are not hidden and are not described as required companions.',
+            'Call of Duty 4 is the 2007 PC game these pages describe. Call of Duty 4 multiplayer and the campaign are game topics, separate from the Windows PC software listed for sale. The guides explain characters, maps, and ranks for Call of Duty 4 without inventing a live season, a player total, or a patch that this site has not verified. Those notes stay on this domain under the Call of Duty 4 name.',
             'Game names are used so you can tell which Windows PC title the pages discuss. This site is not the game publisher.',
           ],
         },

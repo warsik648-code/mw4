@@ -20,7 +20,8 @@ export interface ForumPost {
   body: string[];
   comments: ForumComment[];
   sourceTitle?: string;
-  sourcePath?: string;
+  subheading?: string;
+  seoTitle?: string;
 }
 
 export const forumCategories = [
@@ -62,13 +63,17 @@ export const forumPosts: ForumPost[] = [
     slug: 'what-esp-names-mean',
     category: 'Guides',
     categoryTone: 'blue',
-    title: 'What do Player ESP, Box ESP, and Loot ESP mean here?',
-    excerpt: 'The names match the feature list. They are not extra products and they are not a detection claim.',
+    title: 'What ESP names mean here',
+    excerpt: 'ESP names on this listing match the feature list. They are not extra products and they are not a detection claim.',
     sourceTitle: 'Aimbot, ESP and radar terms',
     sourcePath: '/aimbot-esp/',
+    subheading: 'Esp: Call of Duty 4: Modern Warfare Cheats',
     body: [
-      'Player ESP, Weapon ESP, Health Bar, Distance ESP, Box ESP, and Skeleton ESP are player visuals. Loot ESP is the item visual. Advanced Aimbot and No Recoil are the aiming and recoil names.',
-      'Radar is explained in the same guide. None of these labels means the build is undetected.',
+      'The card lists player visuals, an item label, an aiming entry, and a recoil entry. Those are names for one Windows PC product. They are not extra products you add at checkout, and none of them is a detection claim.',
+      'Player visuals are the names for information drawn around another player: a box outline, a skeleton line, a health reading, a distance reading, and a weapon label. The item label is the loot entry. Aiming is Advanced Aimbot. Recoil control is No Recoil. Radar wording is explained in the same guide and is not a separate checkout.',
+      'Read the names as labels on a list, not as a promise about anti-cheat. If a guide and the product card ever disagree, the card is the list that checkout uses. The guide only defines the words so a search and the card can be read together.',
+      'A box outline is the rectangle drawn around a player model. A skeleton line follows the pose. Health and distance are numbers next to that model. A weapon label names the gun the player is holding. Loot text points at items rather than players. Keeping those jobs separate is how you tell the visual set apart from a second product.',
+      'Easy Anti-Cheat questions stay on the status page. This note does not say a build is hidden, safe, or permanent. After a game update, the feature names can still be printed on the card while compatibility is unverified. That is why the status page and this definition are different pages.',
     ],
     tip: 'Use the product page if a guide and a card ever disagree. The card is the checkout list.',
   }),
@@ -77,12 +82,17 @@ export const forumPosts: ForumPost[] = [
     category: 'Updates',
     categoryTone: 'orange',
     title: 'How should I read Call of Duty 4: Modern Warfare status?',
-    excerpt: 'The status page is about this listing and game-update risk. It is not a live server census.',
+    seoTitle: 'Should – how to read this status note',
+    excerpt: 'You should read the status note as a compatibility record for this listing. It is not a live server census or a detection claim.',
     sourceTitle: 'Patch notes and updates',
     sourcePath: '/patch-notes/',
+    subheading: 'Should: Call of Duty 4: Modern Warfare Cheats',
     body: [
-      'Product status and Call of Duty 4: Modern Warfare server status are different questions. This site does not publish a live server dashboard or a made-up player count.',
-      'After a game update, read the status page before you assume the last build still matches the client.',
+      'You should treat this note as a compatibility record for the Windows PC listing. You should not read it as a player-count board, a Steam chart, or a promise that a build stays usable after a patch.',
+      'Product status and game-server status are different questions. This site does not publish a live server dashboard or a made-up player count. After a game update, open the status page before you assume the last build still matches the client.',
+      'A useful reading order is short. First, confirm you are looking at this listing and not a newer Modern Warfare title. Second, read whether any compatibility note is actually published. Third, treat an empty note as “unverified,” not as “safe.” Easy Anti-Cheat is discussed on that page without a bypass claim, and public material for the 2007 PC release also mentions PunkBuster. Neither name is a result.',
+      'Server population, tracker sites, and patch headlines answer other questions. Use those sources for population. Use the patch-notes guide to see how this site talks about updates without inventing a season. Use this discussion when the question is how the status page should be read before you play.',
+      'If the card, the status page, and a guide disagree, the status page is the compatibility record and the card is the feature list. This discussion does not add a third list. It only explains which page answers which question.',
     ],
     tip: 'Easy Anti-Cheat is discussed there without a bypass claim.',
   }),

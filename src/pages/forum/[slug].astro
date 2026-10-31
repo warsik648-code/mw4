@@ -21,7 +21,7 @@ const relatedPosts = [
 ].slice(0, 3);
 ---
 
-<BaseLayout title={pageTitle(post.title)} description={post.excerpt} jsonLd={[
+<BaseLayout title={post.seoTitle ?? pageTitle(post.title)} description={post.excerpt} jsonLd={[
   discussionForumPostingSchema({ name: post.title, text: post.body.join('\n\n'), url: path, author: post.author, comments: post.commentsCount }),
   breadcrumbSchema(breadcrumbs),
 ]}>
@@ -37,6 +37,7 @@ const relatedPosts = [
             <div class="forum-detail-content">
               <div class="forum-post-meta"><span class={`forum-community-avatar tone-${post.categoryTone}`}><Icon name="users" size={15} /></span><a href="/forum/" class="forum-community-name">d/{post.category.toLowerCase().replaceAll(' ', '')}</a><span>·</span><span><Icon name="userRound" size={13} /> Guide team</span><span>Guide-based Q&amp;A</span></div>
               <h1>{post.title}</h1>
+              {post.subheading && <h2>{post.subheading}</h2>}
               {post.flair && <span class={`forum-flair tone-${post.categoryTone}`}>{post.flair}</span>}
               <div class="forum-detail-copy">{post.body.map((paragraph) => <p>{paragraph}</p>)}</div>
               {post.sourceTitle && <p class="forum-source forum-source--detail">Based on: <a href={post.sourcePath}>{post.sourceTitle}</a></p>}

@@ -28,6 +28,26 @@ interface Props {
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
+const logoAltByPath: Record<string, string> = {
+  '/': 'Call Of Duty 4 – guide',
+  '/about/': 'Call Of Duty 4 – logo',
+  '/store/': 'Store – logo',
+  '/support/': 'Support – logo',
+  '/faq/': 'Plans Features – logo',
+  '/features/': 'Features – logo',
+  '/forum/': 'Call Of Duty 4 Modern – logo',
+  '/forum/how-to-read-status/': 'Should – logo',
+  '/forum/what-esp-names-mean/': 'Esp – logo',
+  '/status/': 'Status – logo',
+  '/cloud-dma/': 'Cloud Dma – Call of Duty 4: Modern Warfare Cheats preview card listing aimbot, ESP, and radar terms',
+  '/hwid-spoofer/': 'Hwid Spoofer – Call of Duty 4: Modern Warfare Cheats preview card listing aimbot, ESP, and radar',
+  '/modern-warfare-cheats/': 'Lifetime – Call of Duty 4: Modern Warfare Cheats preview card listing aimbot, ESP, and radar terms',
+};
+const requestPath = Astro.url.pathname.endsWith('/') || Astro.url.pathname.includes('.')
+  ? Astro.url.pathname
+  : `${Astro.url.pathname}/`;
+const logoAlt = logoAltByPath[requestPath] ?? '';
+
 const {
   title = t.site.title,
   description = t.site.description,
@@ -143,7 +163,7 @@ const robotsContent = noindex
     <main id="main-content">
       <slot />
     </main>
-    <Footer />
+    <Footer logoAlt={logoAlt} />
     <script>
       import '../scripts/site.ts';
     </script>

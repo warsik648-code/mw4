@@ -10,24 +10,24 @@ export interface PageSeoEntry {
 
 export const PAGE_SEO: Record<string, PageSeoEntry> = {
   '/': {
-    title: 'Call of Duty 4: Modern Warfare Cheats | Aimbot, ESP and Radar',
+    title: 'Call Of Duty 4 – Aimbot, ESP and Radar',
     description:
       'Explore Call of Duty 4: Modern Warfare cheats for Windows PC, including MW4 player ESP, Modern Warfare 4 aimbot, and recoil control.',
   },
   '/features/': {
-    title: 'Call of Duty 4: Modern Warfare Features | Call of Duty 4: Modern Warfare Cheats',
+    title: 'Features – Call of Duty 4 | Modern Warfare Cheats',
     description:
-      'Explore Call of Duty 4: Modern Warfare Cheats features for Windows PC, including aimbot, player ESP, box ESP, skeleton ESP, distance ESP, and radar, where the product lists them.',
+      'Explore Call of Duty 4: Modern Warfare Cheats features for Windows PC, including aimbot, player ESP, box ESP, skeleton ESP, distance ESP, and radar, where the.',
   },
   '/store/': {
-    title: 'Call of Duty 4: Modern Warfare Store | Call of Duty 4: Modern Warfare Cheats',
+    title: 'Store – Call of Duty 4 | Modern Warfare Cheats',
     description:
-      'Explore the Call of Duty 4: Modern Warfare Cheats store. Compare weekly access at $15, monthly access at $35, and lifetime access at $150, plus Cloud DMA and HWID Spoofer.',
+      'Explore the Call of Duty 4: Modern Warfare Cheats store. Compare weekly access at $15, monthly access at $35, and lifetime access at $150, plus Cloud DMA and.',
   },
   '/modern-warfare-cheats/': {
-    title: 'Call of Duty 4: Modern Warfare Cheats | Weekly, Monthly and Lifetime',
+    title: 'Lifetime – Call of Duty 4 | Modern Warfare Cheats',
     description:
-      'Call of Duty 4: Modern Warfare cheats for Windows PC. Review Player ESP, Advanced Aimbot, loot ESP, and radar, then choose $15 weekly, $35 monthly, or $150 lifetime.',
+      'Lifetime access for the Windows PC listing: Player ESP, Advanced Aimbot, loot ESP, and radar. Choose $15 weekly, $35 monthly, or $150 lifetime.',
   },
   '/cloud-dma/': {
     title: 'Cloud DMA | Call of Duty 4: Modern Warfare Cheats',
@@ -40,9 +40,9 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
       'HWID Spoofer is a related product at $15 for one week or $35 for one month. It is sold separately and does not guarantee access after a platform restriction.',
   },
   '/status/': {
-    title: 'Call of Duty 4: Modern Warfare Status | Call of Duty 4: Modern Warfare Cheats',
+    title: 'Status – Call of Duty 4 | Modern Warfare Cheats',
     description:
-      'Review Call of Duty 4: Modern Warfare product compatibility notes, game update notices, and Easy Anti-Cheat status. This page does not label the product undetected.',
+      'Review Call of Duty 4: Modern Warfare product compatibility notes, game update notices, and Easy Anti-Cheat status.',
   },
   '/preview/': {
     title: 'Call of Duty 4: Modern Warfare Preview | Call of Duty 4: Modern Warfare Cheats',
@@ -55,14 +55,14 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
       'Find Call of Duty 4: Modern Warfare Cheats setup information for Windows PC, including documented requirements, configuration guidance, product compatibility, and relevant game update considerations.',
   },
   '/support/': {
-    title: 'Call of Duty 4: Modern Warfare Cheats Support | Call of Duty 4: Modern Warfare',
+    title: 'Support – Call of Duty 4 | Modern Warfare Cheats',
     description:
-      'Find help with Call of Duty 4: Modern Warfare Cheats purchases, product delivery, setup, configuration, and compatibility questions for Call of Duty 4: Modern Warfare on Windows PC.',
+      'Support: Find help with Call of Duty 4: Modern Warfare Cheats purchases, product delivery, setup, configuration, and compatibility questions for Call of Duty.',
   },
   '/faq/': {
-    title: 'Call of Duty 4: Modern Warfare Cheats FAQ | Plans, Features and Support',
+    title: 'Plans Features – Call of Duty 4 | Modern Warfare Cheats',
     description:
-      'Get answers about Call of Duty 4: Modern Warfare Cheats, including weekly, monthly, and lifetime pricing, product features, setup requirements, compatibility information, and support.',
+      'Plans Features: Get answers about Call of Duty 4: Modern Warfare Cheats, including weekly, monthly, and lifetime pricing, product features, setup requirements.',
   },
   '/reviews/': {
     title: 'Call of Duty 4: Modern Warfare Cheats Reviews | Buyer Feedback',
@@ -70,12 +70,12 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
       'Buyer feedback for Call of Duty 4: Modern Warfare Cheats. This page lists only verified reviews about features, setup, and compatibility. None are on file yet.',
   },
   '/blog/': {
-    title: 'Call of Duty 4: Modern Warfare Intel | Call of Duty 4: Modern Warfare Cheats',
+    title: 'Guides – Call of Duty 4 | Modern Warfare Cheats',
     description:
-      'Explore the Call of Duty 4: Modern Warfare information hub for product features, game updates, Windows PC requirements, aiming terminology, player visuals, loot, radar, and anti-cheat information.',
+      'Guides: Explore the Call of Duty 4: Modern Warfare information hub for product features, game updates, Windows PC requirements, aiming terminology, player.',
   },
   '/forum/': {
-    title: 'Call of Duty 4: Modern Warfare Forum | Call of Duty 4: Modern Warfare Cheats',
+    title: 'Call Of Duty 4 Modern – Call of Duty 4',
     description:
       'Read editorial notes about Call of Duty 4: Modern Warfare features, ranks, maps, and Windows PC setup. This forum does not publish unverified buyer reviews.',
   },

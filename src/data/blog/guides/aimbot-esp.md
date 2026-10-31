@@ -1,6 +1,6 @@
 Advanced Aimbot, Player ESP, and radar are the terms readers hit first when they look up a Call of Duty 4: Modern Warfare aimbot or a Call of Duty 4: Modern Warfare wallhack. On this site those words are feature names for the Windows PC product. They are not a promise about Easy Anti-Cheat, and they are not instructions for building a tool. The [product page](/modern-warfare-cheats/) is the list that checkout uses. This guide only explains the words.
 
-## Aiming terms
+## Aimbot terms
 
 Advanced Aimbot is the aiming feature named on Call of Duty 4: Modern Warfare Cheats. People also search Call of Duty 4: Modern Warfare aimbot. Both point at that label. The product page does not publish tuning steps, bone lists, or a claim that the feature is hidden from anti-cheat. If a page elsewhere offers a “macro script” as a separate download, that is not this listing. No Recoil is the recoil name on the same card. A [PC setup](/pc-setup/) note explains that this site does not ship a standalone macro.
 
