@@ -1,0 +1,40 @@
+---
+import '../styles/product-cheat-page.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProductDetail from '../components/ProductDetail.astro';
+import { getProductPage, productHub } from '../data/products';
+import { resolvePageSeo } from '../config/seo';
+import { breadcrumbSchema, productSchema } from '../utils/schema';
+import { t } from '../i18n';
+
+const product = getProductPage('modern-warfare-cheats');
+if (!product) {
+  return Astro.redirect(productHub.path);
+}
+const seo = resolvePageSeo(product.path);
+const breadcrumbs = [
+  { name: t.ui.home, path: '/' },
+  { name: 'Store', path: productHub.path },
+  { name: product.title, path: product.path },
+];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  ogImage={product.images[0]?.src}
+  ogImageAlt={product.images[0]?.alt ?? product.title}
+  jsonLd={[
+    productSchema({
+      name: product.title,
+      description: seo.description,
+      url: product.path,
+      offerUrl: product.buyUrl,
+      image: product.images[0]?.src,
+      sku: product.slug,
+    }),
+    breadcrumbSchema(breadcrumbs),
+  ]}
+>
+  <ProductDetail product={product} breadcrumbs={breadcrumbs} />
+</BaseLayout>

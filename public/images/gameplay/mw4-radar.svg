@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Radar and status card">
+  <rect width="1200" height="675" fill="#0b0e13"/>
+  <rect x="48" y="48" width="1104" height="579" rx="28" fill="#12171f" stroke="#7F3DEE" stroke-width="3"/>
+  <text x="88" y="180" fill="#7F3DEE" font-family="Arial, sans-serif" font-size="28" font-weight="700">RADAR AND STATUS</text>
+  <text x="88" y="260" fill="#f4f1ea" font-family="Arial, sans-serif" font-size="42" font-weight="700">Feature names only</text>
+  <text x="88" y="330" fill="#c8c2d4" font-family="Arial, sans-serif" font-size="28">No detection claim</text>
+</svg>

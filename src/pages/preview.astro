@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { resolvePageSeo } from '../config/seo';
+import { breadcrumbSchema, webPageSchema } from '../utils/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { heroSlides } from '../data/products';
+import ResponsiveImage from '../components/ResponsiveImage.astro';
+import { ROUTES } from '../utils/path';
+import { t } from '../i18n';
+
+const seo = resolvePageSeo('/preview/');
+const breadcrumbs = [
+  { name: t.ui.home, path: '/' },
+  { name: 'Preview', path: '/preview/' },
+];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  jsonLd={[webPageSchema({ name: seo.title, description: seo.description, url: '/preview/' }), breadcrumbSchema(breadcrumbs)]}
+>
+  <article class="py-8 md:py-12">
+    <div class="mx-auto max-w-3xl px-5">
+      <Breadcrumbs items={breadcrumbs} />
+      <h1 class="mt-6 text-3xl font-bold md:text-4xl">Call of Duty 4: Modern Warfare preview</h1>
+      <p class="mt-4 text-muted-foreground">
+        The preview uses the same feature names as the product page: Advanced Aimbot, Player ESP, Weapon ESP, Health Bar, Distance ESP, Box ESP, Skeleton ESP, Loot ESP, and No Recoil. Radar is part of the terminology guide, not a separate checkout.
+      </p>
+      <div class="mt-8 space-y-6">
+        {heroSlides.map((slide) => (
+          <figure class="overflow-hidden rounded-xl border border-border">
+            <ResponsiveImage src={slide.src} alt={slide.alt} width={960} height={540} class="w-full" sizes="(min-width: 768px) 720px, 100vw" />
+            <figcaption class="space-y-1 px-4 py-3">
+              <p class="font-medium text-foreground">{slide.caption}</p>
+              <p class="text-sm text-muted-foreground">{slide.captionDesc}</p>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+      <p class="mt-8 text-muted-foreground">
+        Continue to the <a class="text-primary" href={ROUTES.features}>features page</a>, the <a class="text-primary" href={ROUTES.mainProduct}>main product</a>, or the <a class="text-primary" href="/aimbot-esp/">aimbot and ESP guide</a>.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FeaturesSection from '../components/FeaturesSection.astro';
+import { resolvePageSeo } from '../config/seo';
+import { breadcrumbSchema, webPageSchema } from '../utils/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { t } from '../i18n';
+
+const seo = resolvePageSeo('/features/');
+const breadcrumbs = [
+  { name: t.ui.home, path: '/' },
+  { name: 'Features', path: '/features/' },
+];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  jsonLd={[webPageSchema({ name: seo.title, description: seo.description, url: '/features/' }), breadcrumbSchema(breadcrumbs)]}
+>
+  <div class="mx-auto max-w-6xl px-5 pt-8">
+    <Breadcrumbs items={breadcrumbs} />
+  </div>
+  <FeaturesSection headingLevel="h1" />
+</BaseLayout>

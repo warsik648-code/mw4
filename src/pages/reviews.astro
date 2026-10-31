@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { resolvePageSeo } from '../config/seo';
+import { breadcrumbSchema, webPageSchema } from '../utils/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { t } from '../i18n';
+import { SUPPORT_EMAIL } from '../config/site';
+
+const seo = resolvePageSeo('/reviews/');
+const breadcrumbs = [
+  { name: t.ui.home, path: '/' },
+  { name: 'Reviews', path: '/reviews/' },
+];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  jsonLd={[webPageSchema({ name: seo.title, description: seo.description, url: '/reviews/' }), breadcrumbSchema(breadcrumbs)]}
+>
+  <article class="py-8 md:py-12">
+    <div class="mx-auto max-w-3xl px-5">
+      <Breadcrumbs items={breadcrumbs} />
+      <h1 class="mt-6 text-3xl font-bold md:text-4xl">Buyer feedback</h1>
+      <p class="mt-4 text-muted-foreground">
+        This page publishes only authenticated buyer feedback about Call of Duty 4: Modern Warfare Cheats. No verified reviews are on file, so none are shown. Forum notes and guides are editorial. They are not testimonials.
+      </p>
+      <p class="mt-4 text-muted-foreground">
+        If you want a purchase question answered, email <a class="text-primary" href={`mailto:${SUPPORT_EMAIL}`}>{SUPPORT_EMAIL}</a> rather than expecting a star rating here.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

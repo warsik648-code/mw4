@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import WhySetupSection from '../components/WhySetupSection.astro';
+import { resolvePageSeo } from '../config/seo';
+import { breadcrumbSchema, webPageSchema } from '../utils/schema';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { t } from '../i18n';
+
+const seo = resolvePageSeo('/setup/');
+const breadcrumbs = [
+  { name: t.ui.home, path: '/' },
+  { name: 'Setup', path: '/setup/' },
+];
+---
+
+<BaseLayout
+  title={seo.title}
+  description={seo.description}
+  jsonLd={[webPageSchema({ name: seo.title, description: seo.description, url: '/setup/' }), breadcrumbSchema(breadcrumbs)]}
+>
+  <div class="mx-auto max-w-6xl px-5 pt-8">
+    <Breadcrumbs items={breadcrumbs} />
+  </div>
+  <WhySetupSection leadLevel="h1" />
+</BaseLayout>

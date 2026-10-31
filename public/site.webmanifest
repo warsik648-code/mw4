@@ -1,0 +1,23 @@
+{
+  "name": "Call of Duty 4: Modern Warfare Cheats",
+  "short_name": "Call of Duty 4: Modern Warfare Cheats",
+  "description": "Call of Duty 4: Modern Warfare cheats for Windows PC, with aiming features, player ESP, loot ESP, and radar.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0d10",
+  "theme_color": "#7f3dee",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+---
+import { SITE_URL } from '../../config/site-shared.mjs';
+import { CHECKOUT_PATH_REDIRECTS } from '../../config/checkout-redirects.mjs';
+
+export function getStaticPaths() {
+  const canonical: Record<string, string> = {
+    mw4: '/modern-warfare-cheats/',
+    'modern-warfare': '/modern-warfare-cheats/',
+    'cloud-dma': '/cloud-dma/',
+    'hwid-spoofer': '/hwid-spoofer/',
+  };
+
+  const slugs = [...CHECKOUT_PATH_REDIRECTS.keys()]
+    .map((key) => key.replace(/^\/go\//, '').replace(/\/$/, ''))
+    .filter(Boolean);
+
+  return [...new Set(slugs)].map((slug) => ({
+    params: { slug },
+    props: {
+      destination: CHECKOUT_PATH_REDIRECTS.get(`/go/${slug}/`),
+      canonicalPath: canonical[slug] ?? '/',
+    },
+  }));
+}
+
+const { destination, canonicalPath } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting to checkout</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href={`${SITE_URL}${canonicalPath}`} />
+  </head>
+  <body>
+    <p><a id="checkout" href={destination}>Continue to checkout</a></p>
+    <script define:vars={{ destination }}>
+      const dest = new URL(destination);
+      const incoming = new URLSearchParams(location.search);
+      for (const [key, value] of incoming) {
+        if (!dest.searchParams.has(key)) dest.searchParams.set(key, value);
+      }
+      const link = document.getElementById('checkout');
+      if (link) link.href = dest.toString();
+      location.replace(dest.toString());
+    </script>
+  </body>
+</html>
