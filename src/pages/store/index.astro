@@ -57,8 +57,10 @@ function cardIcon(product: (typeof productPages)[number]): IconName {
             icon={cardIcon(product)}
             badge={product.badge}
             variant={product.variant}
-            buyLabel={t.ui.buyNow}
-            viewLabel={t.ui.viewDetails}
+            imageSrc={product.cardImage?.src}
+            imageAlt={product.cardImage?.alt}
+            buyLabel={`Buy ${product.name}`}
+            viewLabel={`View ${product.name}`}
           />
         ))}
       </div>

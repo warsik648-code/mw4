@@ -18,7 +18,7 @@ Call of Duty 4 multiplayer already has a UAV killstreak. That is an in-game rada
 
 None of these names means the software is undetected. The [status page](/status/) and the [Easy Anti-Cheat guide](/easy-anti-cheat/) are the places for that limit. None of them means a new season added the feature. Call of Duty 4: Modern Warfare did not run on a seasonal content calendar. The [patch notes guide](/patch-notes/) explains how to treat updates without inventing one.
 
-The plans that include this feature list are $15 for a week, $35 for a month, and $150 lifetime. Cloud DMA and HWID Spoofer do not replace the list and are not required with it. Compare them on the [store](/store/) if you are looking at related products, and use the [buyer guide](/cheats-guide/) if you want the commercial overview in one place.
+The plans that include this feature list are $35 for a month and $150 lifetime. Cloud DMA and HWID Spoofer do not replace the list and are not required with it. Compare them on the [store](/store/) if you are looking at related products, and use the [buyer guide](/cheats-guide/) if you want the commercial overview in one place.
 
 ## How to read a crowded screen description
 
@@ -34,6 +34,6 @@ Count the labels you can name without the picture: Advanced Aimbot, Player ESP, 
 
 Create-a-class in Call of Duty 4: Modern Warfare is the game’s own loadout system: weapons, perks, and killstreaks such as UAV, airstrike, and helicopter. That set is how you play a public match. It is not a cheat menu. A perk that reduces recoil inside the game rules is not the No Recoil feature on the product card. Mixing those up makes a buyer think a class setup replaced a product, or the reverse.
 
-Prices stay visible while you read. Weekly is $15, monthly is $35, lifetime is $150, in USD, on the main product only. Related cards on the [store](/store/) have different numbers. HWID Spoofer is $15 weekly or $35 monthly. Cloud DMA is $15 weekly or $50 lifetime. None of those prices buys a different ESP list unless the product page says so, and it does not.
+Prices stay visible while you read. Monthly is $35 and lifetime is $150, in USD, on the main product only. Related cards on the [store](/store/) are separate. HWID Spoofer is monthly access. Cloud DMA is lifetime access. None of those prices buys a different ESP list unless the product page says so, and it does not.
 
 If you still want the commercial summary after the definitions, the [buyer guide](/cheats-guide/) is the short path. If you want the game’s own history, ranks, or maps, leave this page. Feature vocabulary and match vocabulary solve different searches, and they should stay on different URLs. The [FAQ](/faq/) repeats the three prices if you want them without leaving a definition.

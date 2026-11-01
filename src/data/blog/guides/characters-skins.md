@@ -24,7 +24,7 @@ To play is to run the client: campaign missions or a multiplayer match on a map 
 
 Use character for Price, Soap, Gaz, and the multiplayer soldier. Use legend only when you are explaining that this game does not use that system. Use skin for camouflage, not for a shop bundle. Use set for a create-a-class loadout. Use those words on purpose and the searches still land on a page that tells the truth.
 
-The Windows PC product remains optional reading. Its plans are $15, $35, and $150. Its feature names are unchanged by this article. If a character question was really a purchase question, the [FAQ](/faq/) is shorter. If it was really “who is in the campaign”, the names above are the answer, and they do not require a checkout.
+The Windows PC product remains optional reading. Its plans are $35 and $150. Its feature names are unchanged by this article. If a character question was really a purchase question, the [FAQ](/faq/) is shorter. If it was really “who is in the campaign”, the names above are the answer, and they do not require a checkout.
 
 
 ## Campaign missions are not a class menu

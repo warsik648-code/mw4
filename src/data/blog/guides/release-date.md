@@ -6,7 +6,7 @@ A 2007 release means there is no original seasonal battle pass to recap. A searc
 
 ## Download is not hosted here
 
-Call of Duty 4: Modern Warfare download searches want an installer. mw4cheats.net does not distribute the game. Use the store or client you already have a license for. A Call of Duty 4: Modern Warfare mobile search wants a phone build. The products on this site are listed for Windows PC only. There is no mobile plan, no phone checkout, and no claim that a phone version of this 2007 game is what the $15, $35, or $150 plans unlock.
+Call of Duty 4: Modern Warfare download searches want an installer. mw4cheats.net does not distribute the game. Use the store or client you already have a license for. A Call of Duty 4: Modern Warfare mobile search wants a phone build. The products on this site are listed for Windows PC only. There is no mobile plan, no phone checkout, and no claim that a phone version of this 2007 game is what the monthly or lifetime plans unlock.
 
 If the installer you have will not finish a first launch, read [shader loading](/shader-loading/) before you assume a product will repair it. Shader waits on newer Call of Duty PC builds are a different client. The 2007 game should not be blamed, or credited, for a compile step it may not be running.
 
@@ -16,7 +16,7 @@ People ask for a Call of Duty 4: Modern Warfare player count because a game this
 
 ## The product is newer than the game’s launch only in the sense that the listing is current
 
-Call of Duty 4: Modern Warfare Cheats is a current listing for a Windows PC product aimed at that game. The game’s release date is 2007. The listing’s prices are $15 for one week, $35 for one month, and $150 lifetime. Those facts sit side by side without one rewriting the other. Features are the names on the [product page](/modern-warfare-cheats/): Advanced Aimbot, the ESP set, Loot ESP, and No Recoil. Easy Anti-Cheat is discussed in its [own guide](/easy-anti-cheat/) because the anti-cheat story of the original PC release is not a one-line slogan. Historical PC coverage of the 2007 game refers to PunkBuster. The product pages name Easy Anti-Cheat for compatibility questions and do not claim either system is bypassed.
+Call of Duty 4: Modern Warfare Cheats is a current listing for a Windows PC product aimed at that game. The game’s release date is 2007. The listing’s prices are $35 for one month and $150 lifetime. Those facts sit side by side without one rewriting the other. Features are the names on the [product page](/modern-warfare-cheats/): Advanced Aimbot, the ESP set, Loot ESP, and No Recoil. Easy Anti-Cheat is discussed in its [own guide](/easy-anti-cheat/) because the anti-cheat story of the original PC release is not a one-line slogan. Historical PC coverage of the 2007 game refers to PunkBuster. The product pages name Easy Anti-Cheat for compatibility questions and do not claim either system is bypassed.
 
 ## Alter, as a search, is usually “change”
 

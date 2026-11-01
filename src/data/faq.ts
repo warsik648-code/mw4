@@ -64,7 +64,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'plans',
     icon: 'faqLicenseMove',
     q: 'What are the main product prices?',
-    a: `${main} costs $15 for 1 week, $35 for 1 month, and $150 lifetime. Prices are in USD.`,
+    a: `${main} is $35 for 1 month and $150 lifetime. Prices are in USD.`,
     scopes: ['modern-warfare-cheats'],
   },
   {
@@ -72,7 +72,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'products',
     icon: 'faqProductsPage',
     q: 'Where are Cloud DMA and HWID Spoofer?',
-    a: `Both are on the ${store}, next to the main product. ${cloud} is $15 weekly or $50 lifetime. ${hwid} is $15 weekly or $35 monthly. Each buy button uses its own checkout.`,
+    a: `Both are on the ${store}, next to the main product. ${cloud} is lifetime access. ${hwid} is monthly access. Each buy button uses its own checkout.`,
     scopes: ['cloud-dma', 'hwid-spoofer'],
   },
   {
@@ -80,7 +80,7 @@ export const siteFaqs: SiteFaqItem[] = [
     topic: 'esp',
     icon: 'faqWhatIsEsp',
     q: 'Which features are on the main product?',
-    a: 'Player ESP, Advanced Aimbot, Weapon ESP, Health Bar, Distance ESP, Box ESP, Skeleton ESP, Loot ESP, and No Recoil.',
+    a: 'The aiming option and the player, weapon, health, distance, box, skeleton, and loot visuals are named on the feature cards. No Recoil is on that same list.',
     scopes: ['modern-warfare-cheats'],
   },
   {

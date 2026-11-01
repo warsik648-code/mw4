@@ -12,7 +12,7 @@ A tier list sorts weapons, perks, or killstreaks by how strong a writer thinks t
 
 ## Ranking is not the product
 
-The [main product](/modern-warfare-cheats/) does not sell a rank. Its features are Player ESP, Advanced Aimbot, Weapon ESP, Health Bar, Distance ESP, Box ESP, Skeleton ESP, Loot ESP, and No Recoil. Using third-party software can conflict with the game’s terms and with anti-cheat. The [status page](/status/) does not call that safe. A tier list article that ends in “buy this to reach a rank” would be the wrong promise. Prices, if you are comparing plans instead, are $15 weekly, $35 monthly, and $150 lifetime.
+The [main product](/modern-warfare-cheats/) does not sell a rank. Its features are Player ESP, Advanced Aimbot, Weapon ESP, Health Bar, Distance ESP, Box ESP, Skeleton ESP, Loot ESP, and No Recoil. Using third-party software can conflict with the game’s terms and with anti-cheat. The [status page](/status/) does not call that safe. A tier list article that ends in “buy this to reach a rank” would be the wrong promise. Prices, if you are comparing plans instead, are $35 monthly and $150 lifetime.
 
 ## How to read an old community list
 

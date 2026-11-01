@@ -18,7 +18,7 @@ Call of Duty 4: Modern Warfare server status is also a different question. A gam
 
 ## Product features do not change by headline
 
-The feature names stay Player ESP, Advanced Aimbot, Weapon ESP, Health Bar, Distance ESP, Box ESP, Skeleton ESP, Loot ESP, and No Recoil until the product page changes them. A patch article cannot quietly add a feature. Radar wording stays in the [aimbot and ESP guide](/aimbot-esp/). Prices stay $15 weekly, $35 monthly, and $150 lifetime until the store changes them.
+The feature names stay Player ESP, Advanced Aimbot, Weapon ESP, Health Bar, Distance ESP, Box ESP, Skeleton ESP, Loot ESP, and No Recoil until the product page changes them. A patch article cannot quietly add a feature. Radar wording stays in the [aimbot and ESP guide](/aimbot-esp/). Prices stay $35 monthly and $150 lifetime until the store changes them.
 
 ## A practical reading order
 
@@ -34,7 +34,7 @@ Multiplayer in 2007 also received balance adjustments that players still discuss
 
 If your search was “Call of Duty 4: Modern Warfare update” because the game will not start, separate three causes. The client may need a file check from the store you bought it on. Windows or a GPU driver may have changed. Or a third-party product may be out of date relative to the client. Only the third item is in scope for the status page, and only as an unverified or verified note we actually have. The first two are install questions, closer to [PC setup](/pc-setup/) and the [shader guide](/shader-loading/) than to a cheat plan.
 
-The [FAQ](/faq/) still answers price. $15, $35, and $150 do not change because a forum claims a silent patch. If the store card and a guide disagree, the card wins, and the guide should be corrected rather than the other way around.
+The [FAQ](/faq/) still answers price. The month and lifetime prices do not change because a forum claims a silent patch. If the store card and a guide disagree, the card wins, and the guide should be corrected rather than the other way around.
 
 
 ## Reload instead of quoting a screenshot

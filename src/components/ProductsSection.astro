@@ -24,12 +24,6 @@ function cardIcon(product: (typeof productPages)[number]) {
 }
 
 function cardFeatures(product: (typeof productPages)[number]): string[] {
-  if (product.slug === 'cloud-dma') {
-    return ['Separate product', 'Own checkout', 'Not required with the main product'];
-  }
-  if (product.slug === 'hwid-spoofer') {
-    return ['Separate product', 'Own checkout', 'No access guarantee'];
-  }
   return product.features;
 }
 
@@ -70,8 +64,10 @@ function cardLabel(product: (typeof productPages)[number]) {
                       icon={cardIcon(product)}
                       badge={product.badge}
                       variant={product.variant}
-                      buyLabel={t.ui.buyNow}
-                      viewLabel={t.ui.viewDetails}
+                      imageSrc={product.cardImage?.src}
+                      imageAlt={product.cardImage?.alt}
+                      buyLabel={`Buy ${product.name}`}
+                      viewLabel={`View ${product.name}`}
                       maxFeatures={5}
                     />
                   </CarouselItem>

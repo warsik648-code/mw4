@@ -54,7 +54,7 @@ export const forumPosts: ForumPost[] = [
     sourceTitle: 'Call of Duty 4: Modern Warfare cheats buyer guide',
     sourcePath: '/cheats-guide/',
     body: [
-      'Call of Duty 4: Modern Warfare Cheats is the primary product. Weekly access is $15, monthly access is $35, and lifetime access is $150.',
+      'Call of Duty 4: Modern Warfare Cheats is the primary product. Monthly access is $35 and lifetime access is $150.',
       'Cloud DMA and HWID Spoofer stay on the store as related products. A buy button on those cards must not send you to the main checkout.',
     ],
     tip: 'Match the card title to the checkout page before you pay.',

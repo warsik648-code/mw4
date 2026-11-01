@@ -25,7 +25,7 @@ export const en: Translations = {
     status: 'Windows PC · check the status page after each game update',
     eyebrow: 'Call of Duty 4: Modern Warfare',
     titleLine1: 'Call of Duty 4: Modern Warfare',
-    titleLine2: 'Call Of Duty 4: Cheats',
+    titleLine2: 'Call Of Duty 4: Aimbot, ESP and Radar',
     subtitle:
       'The Windows PC listing covers MW4 player ESP, Modern Warfare 4 aimbot, and MW4 no recoil, plus the box, skeleton, and distance visuals named below. Read the status page before you play.',
     ctaPrimary: 'View store',
@@ -134,8 +134,8 @@ export const en: Translations = {
     otherLabel: 'Not stated',
     rows: [
       {
-        title: 'Three main-product plans',
-        desc: 'Weekly access is $15, monthly access is $35, and lifetime access is $150. Those prices are in USD.',
+        title: 'Two main-product plans',
+        desc: 'Monthly access is $35 and lifetime access is $150. Those prices are in USD.',
       },
       {
         title: 'Separate related products',
@@ -159,7 +159,6 @@ export const en: Translations = {
       },
     ],
     metrics: [
-      { value: '$15', title: '1 week', desc: 'Main product weekly plan, billed in USD.' },
       { value: '$35', title: '1 month', desc: 'Main product monthly plan, billed in USD.' },
       { value: '$150', title: 'Lifetime', desc: 'Main product lifetime plan, billed in USD.' },
     ],
@@ -233,7 +232,7 @@ export const en: Translations = {
         badge: 'Primary',
         category: 'Main product',
         title: 'Call of Duty 4: Modern Warfare Cheats',
-        subtitle: '$15 week · $35 month · $150 lifetime',
+        subtitle: 'Monthly or lifetime',
         desc: 'Windows PC listing with the published aiming, ESP, loot, and recoil features.',
         features: ['Advanced Aimbot', 'Player ESP', 'Loot ESP', 'No Recoil'],
         more: 5,
@@ -243,9 +242,9 @@ export const en: Translations = {
         badge: 'Related',
         category: 'Related product',
         title: 'Cloud DMA',
-        subtitle: '$15 week · $50 lifetime',
+        subtitle: 'Lifetime access',
         desc: 'A separate product. It is not required to use the main cheats listing.',
-        features: ['Own checkout link', 'Weekly and lifetime prices', 'Not a bundle'],
+        features: ['Own checkout link', 'Lifetime access', 'Not a bundle'],
         more: 0,
         href: ROUTES.cloudDma,
       },
@@ -253,9 +252,9 @@ export const en: Translations = {
         badge: 'Related',
         category: 'Related product',
         title: 'HWID Spoofer',
-        subtitle: '$15 week · $35 month',
+        subtitle: 'Monthly access',
         desc: 'A separate product. It does not guarantee that a restricted account will play again.',
-        features: ['Own checkout link', 'Weekly and monthly prices', 'Not a bundle'],
+        features: ['Own checkout link', 'Monthly access', 'Not a bundle'],
         more: 0,
         href: ROUTES.hwidSpoofer,
       },
@@ -366,12 +365,12 @@ export const en: Translations = {
       {
         num: '01',
         q: 'What does the main product cost?',
-        a: 'Call of Duty 4: Modern Warfare Cheats is $15 for 1 week, $35 for 1 month, and $150 lifetime. Prices are in USD.',
+        a: 'Call of Duty 4: Modern Warfare Cheats is $35 for 1 month and $150 lifetime. Prices are in USD.',
       },
       {
         num: '02',
         q: 'What are the related product prices?',
-        a: 'Cloud DMA is $15 for 1 week and $50 lifetime. HWID Spoofer is $15 for 1 week and $35 for 1 month. Each has its own checkout.',
+        a: 'Cloud DMA is lifetime access. HWID Spoofer is monthly access. Each has its own checkout.',
       },
       {
         num: '03',
@@ -488,7 +487,7 @@ export const en: Translations = {
         {
           heading: 'Products and prices',
           paragraphs: [
-            'Call of Duty 4: Modern Warfare Cheats is listed at $15 for 1 week, $35 for 1 month, and $150 lifetime. Cloud DMA is listed at $15 for 1 week and $50 lifetime. HWID Spoofer is listed at $15 for 1 week and $35 for 1 month. Prices are in USD.',
+            'Call of Duty 4: Modern Warfare Cheats is listed at $35 for 1 month and $150 lifetime. Cloud DMA is listed as lifetime access. HWID Spoofer is listed as monthly access. Prices for the main listing are in USD.',
             'Feature names describe the current listing. A game update can change what a build can do. The status page does not promise that a build will remain usable.',
           ],
         },

@@ -46,6 +46,7 @@ export interface ProductPage {
   more: number;
   variant?: 'essential' | 'popular' | 'limited';
   buyUrl: string;
+  cardImage?: { src: string; alt: string };
   images: ProductSlide[];
   overview: ProductOverview;
   acquisition: ProductAcquisition;
@@ -146,9 +147,13 @@ export const productPages: ProductPage[] = [
     name: 'Modern Warfare Cheats',
     title: 'Call of Duty 4: Modern Warfare Cheats',
     headline: 'Lifetime: Call of Duty 4: Modern Warfare Cheats',
-    subtitle: '$15 for 1 week, $35 for 1 month, or $150 lifetime.',
+    subtitle: 'Monthly and lifetime access for the Windows PC listing.',
+    cardImage: {
+      src: '/images/products/call-of-duty-4-modern-warfare-street.jpg',
+      alt: 'Call of Duty 4 Modern Warfare street scene for the cheats listing',
+    },
     desc: 'Call of Duty 4: Modern Warfare cheats for Windows PC, with Advanced Aimbot, Player ESP, Weapon ESP, Health Bar, Distance ESP, Box ESP, Skeleton ESP, Loot ESP, and No Recoil.',
-    features: ['Advanced Aimbot', 'Player ESP', 'Weapon ESP', 'Health Bar', 'Loot ESP', 'No Recoil'],
+    features: ['Monthly access', 'Lifetime access', 'Advanced Aimbot', 'Player ESP', 'Weapon ESP', 'Health Bar', 'Loot ESP', 'No Recoil'],
     more: 3,
     variant: 'popular',
     buyUrl: checkoutForSlug('modern-warfare-cheats'),
@@ -156,7 +161,7 @@ export const productPages: ProductPage[] = [
     overview: {
       title: 'The primary Call of Duty 4: Modern Warfare listing',
       paragraphs: [
-        'Lifetime access is the longest published option on this listing, at $150. Weekly access is $15 and monthly access is $35. The card covers Advanced Aimbot, Player ESP, and the rest of the named visuals for the Windows PC product.',
+        'Lifetime access is the longest option on this listing. Monthly access is the other option. The card covers Advanced Aimbot, Player ESP, and the rest of the named visuals for the Windows PC product.',
         'Cloud DMA and HWID Spoofer sit beside it in the store because they are related products. You do not have to buy them to check out this listing.',
       ],
     },
@@ -184,7 +189,7 @@ export const productPages: ProductPage[] = [
       { type: 'h2', text: 'Lifetime: Call of Duty 4: Modern Warfare Cheats' },
       {
         type: 'p',
-        text: 'Choose 1 week for $15, 1 month for $35, or lifetime for $150. The buy button adds the plan you select and redirects to this product’s checkout, not to Cloud DMA or HWID Spoofer.',
+        text: 'Choose monthly or lifetime. The buy button adds the plan you select and redirects to this product’s checkout, not to Cloud DMA or HWID Spoofer.',
       },
     ],
     body: [
@@ -209,16 +214,20 @@ export const productPages: ProductPage[] = [
     category: 'Related product',
     name: 'Cloud DMA',
     title: 'Cloud DMA',
-    subtitle: '$15 for 1 week or $50 lifetime.',
+    subtitle: 'Lifetime access, sold separately from the main cheats listing.',
+    cardImage: {
+      src: '/images/products/call-of-duty-4-cloud-dma-room.jpg',
+      alt: 'Cloud DMA operations room for the Call of Duty 4 related product',
+    },
     desc: 'Cloud DMA is a related product with its own checkout. It is not bundled with Call of Duty 4: Modern Warfare Cheats, and this page does not invent hardware specifications.',
-    features: ['$15 for 1 week', '$50 lifetime', 'Separate checkout', 'Not required with the main product'],
+    features: ['Lifetime access', 'Separate checkout', 'Not required with the main product'],
     more: 0,
     buyUrl: checkoutForSlug('cloud-dma'),
     images: leadImages('Cloud Dma'),
     overview: {
       title: 'A related product, not the main cheats listing',
       paragraphs: [
-        'Cloud DMA is sold next to Call of Duty 4: Modern Warfare Cheats so you can see it without hunting through the footer. The price is $15 for one week or $50 lifetime.',
+        'Cloud DMA is sold next to Call of Duty 4: Modern Warfare Cheats so you can see it without hunting through the footer. Lifetime is the access option on this card.',
         'This page does not claim that Cloud DMA must be used with the main product, and it does not publish unstated compatibility guarantees.',
       ],
     },
@@ -226,11 +235,11 @@ export const productPages: ProductPage[] = [
     goodToKnow: 'Use the Cloud DMA buy button. It does not redirect to the main cheats checkout.',
     limitations:
       'No extra technical specification is published here. If a detail is not on this card, treat it as unpublished rather than implied.',
-    fullFeatures: ['Weekly plan at $15', 'Lifetime plan at $50', 'Dedicated checkout URL', 'Shown beside the main product'],
+    fullFeatures: ['Lifetime access', 'Dedicated checkout URL', 'Shown beside the main product'],
     systemRequirements: windowsRequirements,
     body: [
-      { type: 'h2', text: 'Price' },
-      { type: 'p', text: 'Cloud DMA is $15 for 1 week and $50 lifetime. It does not use the $35 monthly or $150 lifetime price from the main cheats listing.' },
+      { type: 'h2', text: 'Access' },
+      { type: 'p', text: 'Cloud DMA is offered as lifetime access. It does not use the monthly option from the main cheats listing.' },
     ],
     relatedBlogSlugs: productRelatedBlogSlugs['cloud-dma'],
     path: productPath('cloud-dma'),
@@ -242,16 +251,20 @@ export const productPages: ProductPage[] = [
     category: 'Related product',
     name: 'HWID Spoofer',
     title: 'HWID Spoofer',
-    subtitle: '$15 for 1 week or $35 for 1 month.',
+    subtitle: 'Monthly access, sold separately, with no access guarantee.',
+    cardImage: {
+      src: '/images/products/call-of-duty-4-hwid-workstation.jpg',
+      alt: 'HWID Spoofer Windows PC workstation for the Call of Duty 4 related product',
+    },
     desc: 'HWID Spoofer is a related product with its own checkout. It does not guarantee that a hardware or account restriction will be lifted.',
-    features: ['$15 for 1 week', '$35 for 1 month', 'Separate checkout', 'No access guarantee'],
+    features: ['Monthly access', 'Separate checkout', 'No access guarantee'],
     more: 0,
     buyUrl: checkoutForSlug('hwid-spoofer'),
     images: leadImages('Hwid Spoofer'),
     overview: {
       title: 'A separate hardware-ID product',
       paragraphs: [
-        'HWID Spoofer is listed at $15 for one week and $35 for one month. It is not a lifetime plan, and it is not included in the $150 cheats lifetime plan.',
+        'HWID Spoofer is a monthly option. It is not a lifetime plan, and it is not included with the main cheats listing.',
         'Buying it does not mean a restricted Call of Duty 4: Modern Warfare account will play again. This page does not publish spoofing steps.',
       ],
     },
@@ -259,7 +272,7 @@ export const productPages: ProductPage[] = [
     goodToKnow: 'Support can only discuss the order you place. They cannot promise a platform will remove a restriction.',
     limitations:
       'Hardware-ID changes can break a Windows install when they are done carelessly. This site does not provide a spoofing procedure, driver steps, or a ban-evasion checklist.',
-    fullFeatures: ['Weekly plan at $15', 'Monthly plan at $35', 'Dedicated checkout URL', 'Shown beside the main product'],
+    fullFeatures: ['Monthly access', 'Dedicated checkout URL', 'Shown beside the main product'],
     systemRequirements: [
       { icon: 'reqWindows', text: '64-bit Windows 10 or Windows 11.' },
       { icon: 'reqShieldGuide', text: 'Read this page’s limits before checkout. There is no access guarantee.' },
@@ -302,6 +315,6 @@ export const productHub = {
   title: t.products.title,
   subtitle: t.products.subtitle,
   description:
-    'Call of Duty 4: Modern Warfare Cheats at $15, $35, and $150, plus Cloud DMA and HWID Spoofer with their own checkout links.',
+    'Call of Duty 4: Modern Warfare Cheats with monthly and lifetime access, plus Cloud DMA and HWID Spoofer with their own checkout links.',
   buyUrl: checkoutForSlug('modern-warfare-cheats'),
 };

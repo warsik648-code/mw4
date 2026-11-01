@@ -12,7 +12,7 @@ A Call of Duty 4: Modern Warfare download search wants the installer. Get it fro
 
 ## Alter usually means change a setting
 
-The query alter Call of Duty 4: Modern Warfare reads like a request to change the install: options, config files, or a class. The game’s own menus are the supported way to change video, audio, and controls. Create-a-class is how you change a multiplayer set. This article will not hand-edit a configuration to hide software or to change hardware identifiers. HWID Spoofer, if that was the real intent, is a separate card at $15 weekly or $35 monthly, and its page still does not include a procedure.
+The query alter Call of Duty 4: Modern Warfare reads like a request to change the install: options, config files, or a class. The game’s own menus are the supported way to change video, audio, and controls. Create-a-class is how you change a multiplayer set. This article will not hand-edit a configuration to hide software or to change hardware identifiers. HWID Spoofer, if that was the real intent, is a separate monthly card, and its page still does not include a procedure.
 
 ## A macro script is not a hidden extra
 
@@ -20,7 +20,7 @@ Call of Duty 4: Modern Warfare macro script searches want a file that repeats in
 
 ## Order of operations
 
-Confirm the client reaches the menu on Windows. Read [status](/status/) so you know we are not claiming a current anti-cheat result. Read the [Easy Anti-Cheat guide](/easy-anti-cheat/) if the error text names an anti-cheat. Then, if you still want the product, compare $15, $35, and $150 on the [main card](/modern-warfare-cheats/). Cloud DMA stays on its own card at $15 or $50. The [FAQ](/faq/) answers the purchase questions that a setup article should not bury.
+Confirm the client reaches the menu on Windows. Read [status](/status/) so you know we are not claiming a current anti-cheat result. Read the [Easy Anti-Cheat guide](/easy-anti-cheat/) if the error text names an anti-cheat. Then, if you still want the product, compare the month and lifetime options on the [main card](/modern-warfare-cheats/). Cloud DMA stays on its own card. The [FAQ](/faq/) answers the purchase questions that a setup article should not bury.
 
 ## PC is also a search modifier
 

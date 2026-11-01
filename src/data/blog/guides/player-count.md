@@ -18,7 +18,7 @@ A busy game and a personal rank are unrelated stats. [Ranks and tier lists](/ran
 
 ## What you can decide without a live number
 
-You can still decide whether the Windows PC product is the thing you meant to buy. The [main listing](/modern-warfare-cheats/) is $15 for a week, $35 for a month, or $150 lifetime. It does not include a mobile client. It does not include a game download. [PC setup](/pc-setup/) and the [release guide](/release-date/) cover platform and history. [Maps](/map-rotation/) and [characters](/characters-skins/) cover the game itself.
+You can still decide whether the Windows PC product is the thing you meant to buy. The [main listing](/modern-warfare-cheats/) is $35 for a month or $150 lifetime. It does not include a mobile client. It does not include a game download. [PC setup](/pc-setup/) and the [release guide](/release-date/) cover platform and history. [Maps](/map-rotation/) and [characters](/characters-skins/) cover the game itself.
 
 If your real problem is a shader stall on a newer Call of Duty PC build, the population of Call of Duty 4 will not explain it. Read [shader loading](/shader-loading/) before you assume a 2007 client and a 2019-or-later client share one compile step.
 

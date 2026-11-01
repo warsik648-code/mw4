@@ -22,22 +22,22 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
   '/store/': {
     title: 'Store – Call of Duty 4 | Modern Warfare Cheats',
     description:
-      'Explore the Call of Duty 4: Modern Warfare Cheats store. Compare weekly access at $15, monthly access at $35, and lifetime access at $150, plus Cloud DMA and.',
+      'Explore the Call of Duty 4: Modern Warfare Cheats store. Compare monthly access at $35 and lifetime access at $150, plus Cloud DMA and HWID.',
   },
   '/modern-warfare-cheats/': {
     title: 'Lifetime – Call of Duty 4 | Modern Warfare Cheats',
     description:
-      'Lifetime access for the Windows PC listing: Player ESP, Advanced Aimbot, loot ESP, and radar. Choose $15 weekly, $35 monthly, or $150 lifetime.',
+      'Lifetime access for the Windows PC listing: Player ESP, Advanced Aimbot, loot ESP, and radar. Choose $35 monthly or $150 lifetime.',
   },
   '/cloud-dma/': {
     title: 'Cloud DMA | Call of Duty 4: Modern Warfare Cheats',
     description:
-      'Cloud DMA is a related product at $15 for one week or $50 lifetime. It is sold separately from Call of Duty 4: Modern Warfare Cheats and uses its own checkout.',
+      'Cloud DMA is a related product with lifetime access. It is sold separately from Call of Duty 4: Modern Warfare Cheats and uses its own checkout.',
   },
   '/hwid-spoofer/': {
     title: 'HWID Spoofer | Call of Duty 4: Modern Warfare Cheats',
     description:
-      'HWID Spoofer is a related product at $15 for one week or $35 for one month. It is sold separately and does not guarantee access after a platform restriction.',
+      'HWID Spoofer is a related product with monthly access. It is sold separately and does not guarantee access after a platform restriction.',
   },
   '/status/': {
     title: 'Status – Call of Duty 4 | Modern Warfare Cheats',
@@ -62,7 +62,7 @@ export const PAGE_SEO: Record<string, PageSeoEntry> = {
   '/faq/': {
     title: 'Plans Features – Call of Duty 4 | Modern Warfare Cheats',
     description:
-      'Plans Features: Get answers about Call of Duty 4: Modern Warfare Cheats, including weekly, monthly, and lifetime pricing, product features, setup requirements.',
+      'Plans Features: Get answers about Call of Duty 4: Modern Warfare Cheats, including monthly and lifetime pricing, product features, and setup requirements.',
   },
   '/reviews/': {
     title: 'Call of Duty 4: Modern Warfare Cheats Reviews | Buyer Feedback',

@@ -1,6 +1,8 @@
 ---
 import type { IconName } from './icons/types';
 import Icon from './icons/Icon.astro';
+import ResponsiveImage from './ResponsiveImage.astro';
+import { CARD_IMAGE_SIZES, CARD_IMAGE_WIDTHS } from '../utils/responsiveImage';
 import { Badge } from '@/components/starwind/badge';
 import { Button } from '@/components/starwind/button';
 import {
@@ -24,6 +26,8 @@ interface Props {
   buyLabel?: string;
   viewLabel?: string;
   maxFeatures?: number;
+  imageSrc?: string;
+  imageAlt?: string;
   class?: string;
 }
 
@@ -40,6 +44,8 @@ const {
   buyLabel = 'Buy now',
   viewLabel = 'View details',
   maxFeatures = 10,
+  imageSrc,
+  imageAlt = '',
   class: className,
 } = Astro.props;
 
@@ -52,7 +58,22 @@ const statusBadgeIcon = (text: string): IconName => {
 };
 ---
 
-<Card class:list={['group flex h-full flex-col transition-shadow hover:shadow-md', className]}>
+<Card class:list={['group flex h-full flex-col overflow-hidden transition-shadow hover:shadow-md', className]}>
+  {
+    imageSrc && (
+      <a href={href} class="block aspect-video overflow-hidden bg-muted/30" tabindex="-1">
+        <ResponsiveImage
+          src={imageSrc}
+          alt={imageAlt}
+          width={640}
+          height={360}
+          widths={CARD_IMAGE_WIDTHS}
+          sizes={CARD_IMAGE_SIZES}
+          class="h-full w-full object-cover"
+        />
+      </a>
+    )
+  }
   <CardHeader class="space-y-2.5">
     <CardTitle class="text-lg normal-case leading-snug">
       <a href={href} class="hover:text-primary">{title}</a>

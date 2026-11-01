@@ -2,7 +2,7 @@ Read how Call of Duty 4: Modern Warfare cheats are listed for Windows PC, what t
 
 Call of Duty 4: Modern Warfare cheats are the primary product on this site. The phrase covers the Windows PC listing at mw4cheats.net, not a mobile client and not a console command list. A Call of Duty 4: Modern Warfare cheat, in the way this site uses the word, is that same product. Call of Duty 4: Modern Warfare hacks is a search people use for the same commercial intent. The page that matches it is the [main product](/modern-warfare-cheats/), where the plan prices and the feature names are written down.
 
-The plans are simple because they should be easy to compare before you play. One week is $15. One month is $35. Lifetime is $150. All three prices are in USD. The buy button on that card redirects to the checkout stored for this product. It does not send you to Cloud DMA or to HWID Spoofer. Those are related products with their own cards on the [store](/store/).
+The plans are simple because they should be easy to compare before you play. One month is $35. Lifetime is $150. Both prices are in USD. The buy button on that card redirects to the checkout stored for this product. It does not send you to Cloud DMA or to HWID Spoofer. Those are related products with their own cards on the [store](/store/).
 
 ## What the feature names are
 
@@ -18,7 +18,7 @@ If you are deciding whether the PC you already own is the right place to start, 
 
 ## Related products
 
-Cloud DMA is $15 for one week or $50 lifetime. HWID Spoofer is $15 for one week or $35 for one month. Neither page says you must buy it together with the cheats listing. HWID Spoofer does not promise that a restriction will be lifted, and it does not publish a spoofing procedure. Use the button on that card if that is the product you want. Use the main card if you want the cheats plans.
+Cloud DMA is lifetime access. HWID Spoofer is monthly access. Neither page says you must buy it together with the cheats listing. HWID Spoofer does not promise that a restriction will be lifted, and it does not publish a spoofing procedure. Use the button on that card if that is the product you want. Use the main card if you want the cheats plans.
 
 ## What to do before checkout
 
@@ -42,4 +42,4 @@ If your question is “when did it come out” or “is there a mobile version�
 
 The [reviews page](/reviews/) stays empty until feedback is verified. For an order, use the support email published in the footer and on the support page. Include the product name so a Cloud DMA order is not handled as a cheats order.
 
-That is the whole commercial path: read the feature names, compare $15, $35, and $150, use the matching checkout, then check status before you play on Windows PC.
+That is the whole commercial path: read the feature names, compare the month and the lifetime option, use the matching checkout, then check status before you play on Windows PC.

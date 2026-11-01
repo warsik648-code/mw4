@@ -8,7 +8,7 @@ Public writing about the original 2007 PC release of Call of Duty 4: Modern Warf
 
 There is no guide here to disable, spoof, or evade an anti-cheat. There is no “working as of” date that we did not verify. There is no promise that a weekly plan survives a game update. After a Call of Duty 4: Modern Warfare update, treat compatibility as unknown until status says otherwise. The [patch notes guide](/patch-notes/) explains that rule without inventing the patch.
 
-HWID Spoofer is a related product at $15 for one week or $35 for one month. Its page does not say it removes an anti-cheat restriction, and it does not include steps. Cloud DMA is separate again, at $15 weekly or $50 lifetime. Neither is required with [Call of Duty 4: Modern Warfare Cheats](/modern-warfare-cheats/). The main plans remain $15, $35, and $150. Buying a second product because an anti-cheat message appeared is not advice this site gives.
+HWID Spoofer is a related product with monthly access. Its page does not say it removes an anti-cheat restriction, and it does not include steps. Cloud DMA is separate again, with lifetime access. Neither is required with [Call of Duty 4: Modern Warfare Cheats](/modern-warfare-cheats/). The main plans remain $35 and $150. Buying a second product because an anti-cheat message appeared is not advice this site gives.
 
 ## Messages that look like anti-cheat and are not
 
