@@ -123,12 +123,12 @@ const statusBadgeIcon = (text: string): IconName => {
       {more > 0 && <li class="text-xs text-muted-foreground">+{more} more features</li>}
     </ul>
   </CardContent>
-  <CardFooter class="flex flex-col gap-2 sm:flex-row">
-    <Button as="a" href={buyUrl} variant="primary" size="sm" class="w-full sm:flex-1">
+  <CardFooter class="mt-auto flex flex-col gap-2">
+    <Button as="a" href={buyUrl} variant="primary" size="sm" class="h-auto min-h-9 w-full whitespace-normal px-3 py-2 text-center leading-snug">
       {buyLabel}
       <Icon name="arrowRight" size={17} />
     </Button>
-    <Button as="a" href={href} variant="outline" size="sm" class="w-full sm:flex-1">
+    <Button as="a" href={href} variant="outline" size="sm" class="h-auto min-h-9 w-full whitespace-normal px-3 py-2 text-center leading-snug">
       {viewLabel}
       <Icon name="arrowRight" size={17} />
     </Button>
