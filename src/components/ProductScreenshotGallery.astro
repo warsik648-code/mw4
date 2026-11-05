@@ -1,7 +1,12 @@
 ---
 import type { ProductSlide } from '../data/products';
 import ResponsiveImage from './ResponsiveImage.astro';
-import { THUMB_IMAGE_WIDTHS } from '../utils/responsiveImage';
+import {
+  DEFAULT_IMAGE_WIDTHS,
+  THUMB_IMAGE_WIDTHS,
+  defaultWebpSrc,
+  responsiveSrcSet,
+} from '../utils/responsiveImage';
 import { Badge } from '@/components/starwind/badge';
 
 interface Props {
@@ -58,7 +63,8 @@ const first = images[0];
             aria-label={`Screenshot ${i + 1}`}
             data-product-gallery-thumb
             data-index={i}
-            data-src={img.src}
+            data-src={defaultWebpSrc(img.src, DEFAULT_IMAGE_WIDTHS)}
+            data-srcset={responsiveSrcSet(img.src, DEFAULT_IMAGE_WIDTHS)}
             data-alt={img.alt}
           >
             <ResponsiveImage
@@ -91,10 +97,13 @@ const first = images[0];
       thumbs.forEach((thumb) => {
         thumb.addEventListener('click', () => {
           const alt = thumb.getAttribute('data-alt');
-          const thumbImg = thumb.querySelector('img');
-          if (thumbImg?.src) {
-            main.src = thumbImg.src;
-            if (thumbImg.srcset) main.srcset = thumbImg.srcset;
+          const nextSrc = thumb.getAttribute('data-src');
+          const nextSrcset = thumb.getAttribute('data-srcset');
+          const source = main.closest('picture')?.querySelector('source');
+          if (nextSrc) main.src = nextSrc;
+          if (nextSrcset) {
+            main.srcset = nextSrcset;
+            if (source) source.srcset = nextSrcset;
           }
           if (alt) main.alt = alt;
           thumbs.forEach((t) => {

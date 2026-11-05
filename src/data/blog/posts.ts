@@ -6,7 +6,29 @@ const rawGuides = import.meta.glob('./guides/*.md', {
   eager: true,
 }) as Record<string, string>;
 
-const image = '/images/blog/mw4-guide.svg';
+const guidePhotos = [
+  '/images/blog/call-of-duty-4-guide-photo-1.jpg',
+  '/images/blog/call-of-duty-4-guide-photo-2.jpg',
+  '/images/blog/call-of-duty-4-guide-photo-3.jpg',
+  '/images/blog/call-of-duty-4-guide-photo-4.jpg',
+  '/images/blog/call-of-duty-4-guide-photo-5.jpg',
+  '/images/blog/call-of-duty-4-guide-photo-6.jpg',
+] as const;
+
+/** Spread the Media/Random shots across guide cards. The text graphic stays unused. */
+const guidePhotoBySlug: Record<string, string> = {
+  'cheats-guide': guidePhotos[2],
+  'aimbot-esp': guidePhotos[0],
+  'patch-notes': guidePhotos[5],
+  'player-count': guidePhotos[1],
+  'shader-loading': guidePhotos[4],
+  'ranks-tier-list': guidePhotos[3],
+  'map-rotation': guidePhotos[0],
+  'release-date': guidePhotos[5],
+  'characters-skins': guidePhotos[2],
+  'easy-anti-cheat': guidePhotos[4],
+  'pc-setup': guidePhotos[1],
+};
 
 const meta: Record<string, Omit<BlogPostFull, 'body' | 'slug' | 'image'>> = {
   'cheats-guide': {
@@ -165,7 +187,7 @@ export const blogPosts: BlogPostFull[] = Object.entries(meta).map(([slug, entry]
   return {
     ...entry,
     slug,
-    image,
+    image: guidePhotoBySlug[slug] ?? guidePhotos[0],
     body: parseMarkdown(rawGuides[key]),
   };
 });

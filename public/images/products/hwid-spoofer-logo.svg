@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" fill="none" role="img" aria-label="HWID Spoofer">
+  <defs>
+    <linearGradient id="hwid-bg" x1="80" y1="40" x2="1200" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#221533"/>
+      <stop offset="1" stop-color="#0A0D10"/>
+    </linearGradient>
+    <linearGradient id="hwid-accent" x1="520" y1="150" x2="760" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9654FF"/>
+      <stop offset="1" stop-color="#7F3DEE"/>
+    </linearGradient>
+    <radialGradient id="hwid-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 360) scale(280)">
+      <stop stop-color="#7F3DEE" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7F3DEE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#hwid-bg)"/>
+  <circle cx="640" cy="360" r="280" fill="url(#hwid-glow)"/>
+  <g stroke="#7F3DEE" stroke-opacity="0.22" stroke-width="1">
+    <path d="M180 180h80M180 180v80M1100 180h-80M1100 180v80M180 540h80M180 540v-80M1100 540h-80M1100 540v-80"/>
+  </g>
+  <path d="M640 168 470 246v168c0 132 72 228 170 292 98-64 170-160 170-292V246L640 168z" fill="url(#hwid-accent)"/>
+  <path d="M640 206 506 268v146c0 104 56 180 134 230 78-50 134-126 134-230V268L640 206z" fill="#0A0D10" fill-opacity="0.38"/>
+  <g transform="translate(640 392)" fill="none" stroke="#F5F7FA" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-78" y="-58" width="156" height="116" rx="18"/>
+    <path d="M-46 -58v-28a46 46 0 0 1 92 0v28"/>
+    <circle cx="0" cy="8" r="14" fill="#F5F7FA" stroke="none"/>
+    <path d="M0 22v24" stroke="#F5F7FA"/>
+  </g>
+</svg>

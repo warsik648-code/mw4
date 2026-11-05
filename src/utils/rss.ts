@@ -2,6 +2,7 @@ import { blogPosts } from '../data/blog';
 import { RSS_FEED_PATH, SITE_ORIGIN, absoluteAssetUrl, canonicalUrl } from '../config/seo';
 import { parseBlogDate } from './schema';
 import { blogPostPath } from './path';
+import { DEFAULT_IMAGE_WIDTHS, defaultWebpSrc } from './responsiveImage';
 
 function escapeXml(value: string): string {
   return value
@@ -18,6 +19,8 @@ export function buildRssFeed(): string {
     .map((post) => {
       const link = canonicalUrl(blogPostPath(post.slug));
       const pubDate = new Date(parseBlogDate(post.date)).toUTCString();
+      const image = post.image.endsWith('.svg') ? post.image : defaultWebpSrc(post.image, DEFAULT_IMAGE_WIDTHS);
+      const imageType = image.endsWith('.svg') ? 'image/svg+xml' : 'image/webp';
       return `
     <item>
       <title>${escapeXml(post.title)}</title>
@@ -25,7 +28,7 @@ export function buildRssFeed(): string {
       <guid isPermaLink="true">${link}</guid>
       <description>${escapeXml(post.desc)}</description>
       <pubDate>${pubDate}</pubDate>
-      <enclosure url="${escapeXml(absoluteAssetUrl(post.image))}" type="${post.image.endsWith('.svg') ? 'image/svg+xml' : 'image/png'}" />
+      <enclosure url="${escapeXml(absoluteAssetUrl(image))}" type="${imageType}" />
     </item>`;
     })
     .join('');

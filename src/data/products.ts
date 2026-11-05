@@ -101,10 +101,36 @@ const mainImages: ProductSlide[] = [
   ),
 ];
 
-const leadImages = (lead: string): ProductSlide[] =>
+const photoSlides = (lead: string, srcs: string[]): ProductSlide[] =>
   mainImages.map((image, index) =>
-    index === 0 ? { ...image, alt: `${lead} – ${image.alt}` } : { ...image },
+    slide(
+      srcs[index] ?? image.src,
+      index === 0 ? `${lead} – ${image.alt}` : image.alt,
+      image.caption,
+      image.captionDesc,
+    ),
   );
+
+const modernWarfareCheatsImages: ProductSlide[] = [
+  slide(
+    '/images/products/call-of-duty-4-modern-warfare-cheats-visuals.jpg',
+    'Lifetime – Call of Duty 4: Modern Warfare Cheats preview card listing aimbot, ESP, and radar terms',
+    'Player visuals',
+    'Player ESP, box, skeleton, health, distance, weapon, and loot names from the product list.',
+  ),
+  slide(
+    '/images/products/call-of-duty-4-modern-warfare-cheats-aimbot.jpg',
+    'Advanced Aimbot view for Call of Duty 4: Modern Warfare Cheats',
+    'Aimbot',
+    'Advanced Aimbot is the aiming feature on this Windows PC listing.',
+  ),
+  slide(
+    '/images/products/call-of-duty-4-modern-warfare-cheats-client.jpg',
+    'Call of Duty 4: Modern Warfare Cheats client screenshot',
+    'In the client',
+    'A screenshot of the client. This is not a detection claim.',
+  ),
+];
 
 function steps(productName: string): ProductAcquisition {
   return {
@@ -157,7 +183,7 @@ export const productPages: ProductPage[] = [
     more: 3,
     variant: 'popular',
     buyUrl: checkoutForSlug('modern-warfare-cheats'),
-    images: leadImages('Lifetime'),
+    images: modernWarfareCheatsImages,
     overview: {
       title: 'The primary Call of Duty 4: Modern Warfare listing',
       paragraphs: [
@@ -223,7 +249,11 @@ export const productPages: ProductPage[] = [
     features: ['Lifetime access', 'Separate checkout', 'Not required with the main product'],
     more: 0,
     buyUrl: checkoutForSlug('cloud-dma'),
-    images: leadImages('Cloud Dma'),
+    images: photoSlides('Cloud Dma', [
+      '/images/blog/call-of-duty-4-guide-photo-2.jpg',
+      '/images/blog/call-of-duty-4-guide-photo-4.jpg',
+      '/images/blog/call-of-duty-4-guide-photo-6.jpg',
+    ]),
     overview: {
       title: 'A related product, not the main cheats listing',
       paragraphs: [
@@ -260,7 +290,11 @@ export const productPages: ProductPage[] = [
     features: ['Monthly access', 'Separate checkout', 'No access guarantee'],
     more: 0,
     buyUrl: checkoutForSlug('hwid-spoofer'),
-    images: leadImages('Hwid Spoofer'),
+    images: photoSlides('Hwid Spoofer', [
+      '/images/blog/call-of-duty-4-guide-photo-5.jpg',
+      '/images/blog/call-of-duty-4-guide-photo-1.jpg',
+      '/images/blog/call-of-duty-4-guide-photo-3.jpg',
+    ]),
     overview: {
       title: 'A separate hardware-ID product',
       paragraphs: [

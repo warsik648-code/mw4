@@ -19,6 +19,7 @@ import { Prose } from '@/components/starwind/prose';
 import BlogPostCta from '../components/BlogPostCta.astro';
 import { SITE_URL } from '../config/site';
 import { normalizeInternalPath, ROUTES } from '../utils/path';
+import { DEFAULT_IMAGE_WIDTHS, defaultWebpSrc } from '../utils/responsiveImage';
 
 export function getStaticPaths() {
   return getAllBlogSlugs().map((slug) => ({ params: { slug } }));
@@ -61,13 +62,16 @@ const breadcrumbs = [
   { name: post.title, path: postPath },
 ];
 const related = getRelatedBlogPosts(post.slug, 3);
+const articleImage = post.image.endsWith('.svg')
+  ? post.image
+  : defaultWebpSrc(post.image, DEFAULT_IMAGE_WIDTHS);
 ---
 
 <BaseLayout
   title={title}
   description={description}
   ogType="article"
-  ogImage={post.image}
+  ogImage={articleImage}
   ogImageAlt={post.title}
   articlePublishedTime={published}
   articleModifiedTime={published}
@@ -76,7 +80,7 @@ const related = getRelatedBlogPosts(post.slug, 3);
       name: post.title,
       description,
       url: postPath,
-      image: post.image,
+      image: articleImage,
       datePublished: published,
     }),
     breadcrumbSchema(breadcrumbs),
